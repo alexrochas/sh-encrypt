@@ -9,7 +9,7 @@ The origin of this project was the moment I created an alias and needed to pass 
 (echo -e "[password]" && cat) | sudo openconnect [host] -u "[user]" --passwd-on-stdin 
 ```
 
-Once this project have it fisrt versin it should be able to use something like:
+Once this project have it fisrt version it should be able to use something like:
 
 ```
 (echo -e (ssh_decrypt("[encrypted_password]")) && cat) | sudo openconnect [host] -u "[user]" --passwd-on-stdin 
