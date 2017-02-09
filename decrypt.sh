@@ -1,7 +1,7 @@
 #!/bin/bash
 
 function decrypt() {
-    decrypted_text=$(cat ./.key/$input_key.key | openssl rsautl -decrypt -inkey ~/.ssh/id_rsa)
+    decrypted_text=$(cat ./.keys/$input_key.key | openssl rsautl -decrypt -inkey ~/.ssh/id_rsa)
     echo $decrypted_text
 };
 
