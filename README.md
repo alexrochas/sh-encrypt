@@ -1,4 +1,4 @@
-# SSH Encrypt
+# SH Encrypt
 > Tool for encrypt passwords with public key
 
 ## Objective
